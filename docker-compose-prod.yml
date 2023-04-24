@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: #заполнить
+      POSTGRES_PASSWORD: #заполнить
+      POSTGRES_DB: #заполнить
+    ports:
+      - '5432:5432'
+
+  crm:
+    build: .
