@@ -13,4 +13,8 @@ public class RootController {
         return Map.of("Working", "ok", "Doing", "good");
     }
 
+    public Map<Object, Object> getRoot() {
+        return null;
+    }
+
 }

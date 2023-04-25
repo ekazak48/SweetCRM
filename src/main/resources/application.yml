@@ -6,3 +6,8 @@ spring:
     password: SwCrmTstPwd
   liquibase:
     change-log: db/changelog/db.changelog-master.yaml
+  security:
+    user:
+      name: ekz48
+      password: ekz48pwd
+      roles: USER,ADMIN
