@@ -7,16 +7,16 @@ import jakarta.persistence.Id;
 
 
 @Entity(name = "customers")
-public class Customer {
+public class CustomerEntity {
 
-    public Customer(){
+    public CustomerEntity(){
         this.id = -1L;
         this.email = "";
         this.name = "";
         this.phone = "";
     }
 
-    public Customer(String name, String phone, String email) {
+    public CustomerEntity(String name, String phone, String email) {
         this.name = name;
         this.phone = phone;
         this.email = email;

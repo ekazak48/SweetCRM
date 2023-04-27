@@ -11,3 +11,6 @@ spring:
       name: ekz48
       password: ekz48pwd
       roles: USER,ADMIN
+  jpa:
+    hibernate:
+      ddl-auto: none #пусть этим рулит liquibase

@@ -3,7 +3,8 @@ create table customers
     id    serial,
     name  varchar not null,
     email varchar,
-    phone varchar
+    phone varchar,
+    address varchar
 );
 
 comment on table customers is 'table for saving customers information';

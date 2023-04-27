@@ -3,3 +3,5 @@ databaseChangeLog:
         file: db/changelog/v0.1/init_customers.sql
     - include:
         file: db/changelog/v0.1/init_suppliers.sql
+    - include:
+        file: db/changelog/v0.1/init_products.sql
